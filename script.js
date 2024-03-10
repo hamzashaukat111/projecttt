@@ -191,10 +191,10 @@ $(document).ready(function () {
 
           if (watermarkProbability > noWatermarkProbability) {
             resultHeading.innerHTML =
-              '<h2 class="result-heading">This Image contains a watermark</h2>';
+              '<h2 class="result-heading">This Video contains a watermark</h2>';
           } else {
             resultHeading.innerHTML =
-              '<h2 class="result-heading">This Image does not contain a watermark</h2>';
+              '<h2 class="result-heading">This Video does not contain a watermark</h2>';
           }
         } else {
           resultContainer.innerHTML = "<p>No predictions found.</p>";
